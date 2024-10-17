@@ -6,12 +6,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/stats"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uasc"
+	"server01.jz/cloudia-libs/opcua/debug"
+	"server01.jz/cloudia-libs/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/id"
+	"server01.jz/cloudia-libs/opcua/stats"
+	"server01.jz/cloudia-libs/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/uasc"
 )
 
 const (

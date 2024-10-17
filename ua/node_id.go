@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/gopcua/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/errors"
 )
 
 // todo(fs): fix mask

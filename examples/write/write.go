@@ -9,9 +9,9 @@ import (
 	"flag"
 	"log"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua"
+	"server01.jz/cloudia-libs/opcua/debug"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 func main() {

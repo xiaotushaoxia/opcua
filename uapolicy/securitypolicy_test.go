@@ -12,7 +12,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/ua"
 
 	"github.com/pascaldekloe/goe/verify"
 )

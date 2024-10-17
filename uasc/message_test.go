@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopcua/opcua/id"
+	"server01.jz/cloudia-libs/opcua/id"
 
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 func TestMessage(t *testing.T) {

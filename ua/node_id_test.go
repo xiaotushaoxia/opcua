@@ -11,7 +11,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gopcua/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/errors"
 )
 
 func TestNodeID(t *testing.T) {

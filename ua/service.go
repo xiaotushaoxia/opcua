@@ -7,7 +7,7 @@ package ua
 import (
 	"fmt"
 
-	"github.com/gopcua/opcua/debug"
+	"server01.jz/cloudia-libs/opcua/debug"
 )
 
 // svcreg contains all known service request/response objects.

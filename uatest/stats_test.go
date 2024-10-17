@@ -10,8 +10,8 @@ import (
 
 	"github.com/pascaldekloe/goe/verify"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/stats"
+	"server01.jz/cloudia-libs/opcua"
+	"server01.jz/cloudia-libs/opcua/stats"
 )
 
 func newExpVarInt(i int64) *expvar.Int {

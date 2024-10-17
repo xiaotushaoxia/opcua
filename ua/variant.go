@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/gopcua/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/errors"
 )
 
 var (

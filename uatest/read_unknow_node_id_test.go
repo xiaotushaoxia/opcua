@@ -7,9 +7,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua"
+	"server01.jz/cloudia-libs/opcua/id"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 // TestRead performs an integration test to read values

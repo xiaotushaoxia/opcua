@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/monitor"
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua"
+	"server01.jz/cloudia-libs/opcua/monitor"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 const (

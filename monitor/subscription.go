@@ -5,9 +5,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/gopcua/opcua"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua"
+	"server01.jz/cloudia-libs/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 var (

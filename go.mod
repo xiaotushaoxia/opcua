@@ -1,4 +1,4 @@
-module github.com/gopcua/opcua
+module server01.jz/cloudia-libs/opcua
 
 go 1.20
 

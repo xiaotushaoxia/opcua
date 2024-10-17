@@ -9,7 +9,7 @@ import (
 	"io"
 	"reflect"
 
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 // stats is the global statistics counter.

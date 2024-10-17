@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/gopcua/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/errors"
 )
 
 // TypeRegistry provides a registry for Go types.

@@ -6,7 +6,7 @@
 
 package ua
 
-import "github.com/gopcua/opcua/id"
+import "server01.jz/cloudia-libs/opcua/id"
 
 func init() {
 	RegisterService(id.ServiceFault_Encoding_DefaultBinary, new(ServiceFault))

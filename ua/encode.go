@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/debug"
+	"server01.jz/cloudia-libs/opcua/errors"
 )
 
 // debugCodec enables printing of debug messages in the opcua codec.

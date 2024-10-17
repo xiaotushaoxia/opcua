@@ -7,7 +7,7 @@ package uacp
 import (
 	"testing"
 
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 func TestHello(t *testing.T) {

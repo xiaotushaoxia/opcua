@@ -8,8 +8,8 @@ import (
 	"context"
 	"strings"
 
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/id"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 // Node is a high-level object to interact with a node in the

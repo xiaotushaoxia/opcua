@@ -14,10 +14,10 @@ import (
 
 	"github.com/pascaldekloe/goe/verify"
 
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uapolicy"
-	"github.com/gopcua/opcua/uasc"
+	"server01.jz/cloudia-libs/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/uacp"
+	"server01.jz/cloudia-libs/opcua/uapolicy"
+	"server01.jz/cloudia-libs/opcua/uasc"
 )
 
 // test certificate generated with

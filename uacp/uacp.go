@@ -5,8 +5,8 @@
 package uacp
 
 import (
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 // MessageType definitions.

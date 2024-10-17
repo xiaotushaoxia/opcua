@@ -15,11 +15,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uapolicy"
+	"server01.jz/cloudia-libs/opcua/debug"
+	"server01.jz/cloudia-libs/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/uacp"
+	"server01.jz/cloudia-libs/opcua/uapolicy"
 )
 
 const (

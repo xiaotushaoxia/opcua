@@ -9,7 +9,7 @@ import (
 	"flag"
 	"log"
 
-	"github.com/gopcua/opcua/uacp"
+	"server01.jz/cloudia-libs/opcua/uacp"
 )
 
 func main() {

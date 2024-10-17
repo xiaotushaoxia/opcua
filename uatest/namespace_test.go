@@ -9,7 +9,7 @@ import (
 
 	"github.com/pascaldekloe/goe/verify"
 
-	"github.com/gopcua/opcua"
+	"server01.jz/cloudia-libs/opcua"
 )
 
 func TestNamespace(t *testing.T) {

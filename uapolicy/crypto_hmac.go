@@ -4,7 +4,7 @@ import (
 	"crypto"
 	"crypto/hmac"
 
-	"github.com/gopcua/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/errors"
 )
 
 type HMAC struct {

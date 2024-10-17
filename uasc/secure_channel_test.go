@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uacp"
-	"github.com/gopcua/opcua/uapolicy"
-	"github.com/gopcua/opcua/uatest"
+	"server01.jz/cloudia-libs/opcua/id"
+	"server01.jz/cloudia-libs/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/uacp"
+	"server01.jz/cloudia-libs/opcua/uapolicy"
+	"server01.jz/cloudia-libs/opcua/uatest"
 	"github.com/pascaldekloe/goe/verify"
 )
 

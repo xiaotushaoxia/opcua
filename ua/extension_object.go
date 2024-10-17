@@ -5,8 +5,8 @@
 package ua
 
 import (
-	"github.com/gopcua/opcua/debug"
-	"github.com/gopcua/opcua/id"
+	"server01.jz/cloudia-libs/opcua/debug"
+	"server01.jz/cloudia-libs/opcua/id"
 )
 
 // eotypes contains all known extension objects.

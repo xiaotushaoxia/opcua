@@ -9,7 +9,7 @@ import (
 	_ "crypto/sha1"
 	_ "crypto/sha256"
 
-	"github.com/gopcua/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/ua"
 )
 
 const PKCS1v15MinPadding = 11

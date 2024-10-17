@@ -14,7 +14,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/gopcua/opcua/cmd/service/goname"
+	"server01.jz/cloudia-libs/opcua/cmd/service/goname"
 )
 
 func main() {

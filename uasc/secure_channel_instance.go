@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gopcua/opcua/errors"
-	"github.com/gopcua/opcua/id"
-	"github.com/gopcua/opcua/ua"
-	"github.com/gopcua/opcua/uapolicy"
+	"server01.jz/cloudia-libs/opcua/errors"
+	"server01.jz/cloudia-libs/opcua/id"
+	"server01.jz/cloudia-libs/opcua/ua"
+	"server01.jz/cloudia-libs/opcua/uapolicy"
 )
 
 type instanceState int

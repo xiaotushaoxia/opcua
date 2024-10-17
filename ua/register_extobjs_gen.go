@@ -7,7 +7,7 @@
 package ua
 
 import (
-	"github.com/gopcua/opcua/id"
+	"server01.jz/cloudia-libs/opcua/id"
 )
 
 func init() {
