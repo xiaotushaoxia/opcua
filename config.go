@@ -561,6 +561,13 @@ func SendBufferSize(n uint32) Option {
 	}
 }
 
+// SetFixNonce make nonce fixed when establishing the uasc connection.
+func SetFixNonce(bs []byte) Option {
+	return func(cfg *Config) error {
+		return nil
+	}
+}
+
 func initDialer(cfg *Config) {
 	if cfg.dialer == nil {
 		cfg.dialer = &uacp.Dialer{}

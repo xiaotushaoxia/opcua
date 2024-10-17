@@ -524,9 +524,14 @@ func (s *SecureChannel) open(ctx context.Context, instance *channelInstance, req
 	s.openingInstance.algo = algo
 	s.openingInstance.SetMaximumBodySize(int(s.c.SendBufSize()))
 
-	localNonce, err := algo.MakeNonce()
-	if err != nil {
-		return err
+	var localNonce []byte
+	if s.cfg.FixedNonce != nil {
+		localNonce = append(localNonce, s.cfg.FixedNonce...)
+	} else {
+		localNonce, err = algo.MakeNonce()
+		if err != nil {
+			return err
+		}
 	}
 
 	req := &ua.OpenSecureChannelRequest{
